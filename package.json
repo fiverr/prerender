@@ -14,7 +14,7 @@
     "phantom": "^0.7.2",
     "phantomjs": "^1.9.15",
     "tree-kill": "0.0.6",
-    "prerender-plugin-memcached": "^0.0.3"
+    "cache-manager-memcached": "^0.0.3"
   },
   "bin": {
     "prerender": "server.js"
