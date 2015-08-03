@@ -36,15 +36,11 @@ module.exports = function (shipit) {
   });
 
   shipit.blTask('deployStaging', function () {
-	shipit.on("AppJsCopied", function() {
-        	shipit.start('startAppStaging');
-	});
+       	shipit.start('startAppStaging');
   });
 
   shipit.blTask('deployProduction', function () {
-	shipit.on("AppJsCopied", function() {
-        	shipit.start('startAppProduction');
-	});
+       	shipit.start('startAppProduction');
   });
 
   shipit.on("cleaned", function() {
