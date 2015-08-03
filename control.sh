@@ -12,15 +12,13 @@ start ()
 		export MEMCACHED_SERVERS=localhost:5555
 	fi
 
-	ps -ef | grep "node server.js" | grep -v grep | awk '{print $2}' > $CURR_DIR/prerender.pid
-
 	npm install
 	nohup node server.js & 
 }
 
 stop ()
 {
-	kill `cat $CURR_DIR/prerender.pid`
+	ps -ef | grep "node server.js" | grep -v grep | awk '{print "kill ", $2}' | bash
 }
 
 # MAIN
