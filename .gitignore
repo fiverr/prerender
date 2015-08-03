@@ -3,3 +3,8 @@ node_modules/
 .DS_Store
 .elasticbeanstalk/
 .idea/
+*.pid
+./log/*.log
+log/*
+run/*
+./run/*
