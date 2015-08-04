@@ -9,7 +9,7 @@ module.exports = function (shipit) {
       repositoryUrl: 'git@github.com:fiverr/prerender.git',
       ignores: ['.git', 'node_modules'],
       branch: process.env.BRANCH || 'master',
-      keepReleases: 1,
+      keepReleases: 10,
       shallowClone: true,
       shared: {
         dirs: [ 'node_modules', 'log', 'run' ],
