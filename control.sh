@@ -13,7 +13,7 @@ start ()
 	fi
 
 	npm install
-	node server.js 2>&1 & 
+	echo | nohup node server.js & 
 }
 
 stop ()
