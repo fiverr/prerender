@@ -13,7 +13,7 @@ start ()
 	fi
 
 	npm install
-	node server.js > log/prerender.log &
+	node server.js >> log/prerender.log &
 }
 
 stop ()
