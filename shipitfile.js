@@ -15,11 +15,11 @@ module.exports = function (shipit) {
         dirs: [ 'node_modules', 'log', 'run' ],
       }
     },
-    fiverr01: {
-      servers: 'admin@fiverr01'
+    fiverr03: {
+      servers: 'admin@fiverr03'
     },
-    fiverr02: {
-      servers: 'admin@fiverr02'
+    fiverr04: {
+      servers: 'admin@fiverr04'
     }
   });
 
