@@ -37,6 +37,7 @@ case "$action" in
 		start
 	;;
 	restart)
-		restart
+        stop
+        start
 	;;
 esac

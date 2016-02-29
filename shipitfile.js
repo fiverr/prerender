@@ -28,11 +28,11 @@ module.exports = function (shipit) {
   }
 
   shipit.blTask('startAppStaging', function () {
-       	shipit.remote(underRelease("./control.sh stop staging; ./control.sh start staging"));
+       	shipit.remote(underRelease("./control.sh restart staging"));
   });
 
   shipit.blTask('startAppProduction', function () {
-        shipit.remote(underRelease("./control.sh stop production; ./control.sh start production"));
+        shipit.remote(underRelease("./control.sh restart production"));
   });
 
   shipit.blTask('deployStaging', function () {
