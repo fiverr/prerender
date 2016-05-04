@@ -8,7 +8,7 @@ start ()
 	export CACHE_TTL=14400 # In seconds = 4 hours
 	if [ $environment == 'production' ]
 	then
-		export MEMCACHED_SERVERS=memcached05:5555,memcached06:5555,memcached07:5555,memcached08:5555
+		export MEMCACHED_SERVERS=1st-memcached:5555,memcached06:5555,memcached07:5555,memcached-cn-2:5555
 	else
 		export MEMCACHED_SERVERS=localhost:5555
 	fi
