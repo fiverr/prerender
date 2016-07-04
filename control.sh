@@ -2,8 +2,8 @@
 
 start ()
 {
-	export PHANTOM_CLUSTER_NUM_WORKERS=8
-	export PHANTOM_WORKER_ITERATIONS=25
+	export PRERENDER_NUM_WORKERS=8
+	export PRERENDER_NUM_ITERATIONS=25
 	export PORT=6018
 	export CACHE_TTL=14400 # In seconds = 4 hours
 	if [ $environment == 'production' ]

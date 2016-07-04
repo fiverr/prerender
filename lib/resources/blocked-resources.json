@@ -22,5 +22,8 @@
 	"\\.eot",
 	"log.optimizely.com/event",
 	"\\.otf",
-	"hn.inspectlet.com"
+	"hn.inspectlet.com",
+	"tpc.googlesyndication.com",
+	"partner.googleadservices.com",
+	"\\.woff"
 ]
