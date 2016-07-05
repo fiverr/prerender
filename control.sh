@@ -2,7 +2,7 @@
 
 start ()
 {
-	export PRERENDER_NUM_WORKERS=8
+	export PRERENDER_NUM_WORKERS=4
 	export PRERENDER_NUM_ITERATIONS=25
 	export PORT=6018
 	export CACHE_TTL=14400 # In seconds = 4 hours
