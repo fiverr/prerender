@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.1.8",
-    "cache-manager": "^0.16.0",
+    "cache-manager": "^2.1.2",
     "he": "^0.5.0",
     "lodash": "^3.1.0",
     "phridge": "^2.0.0",
